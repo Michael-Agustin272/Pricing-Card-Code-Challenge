@@ -1,0 +1,104 @@
+
+h3, p, h2{
+  margin:0
+}
+body{
+  padding:20px;
+}
+html{
+  font-family: 'Karla';
+  box-sizing: border-box;
+}
+*,*:before, *:after{
+  box-sizing:inherit;
+}
+
+#card{
+  height: 350px;
+  width: 600px;
+  box-shadow: 5px 5px 22px 0px rgba(0,0,0,0.52);
+  border-radius: 10px;
+  overflow: hidden;
+} 
+
+#top-part{
+  width: 100%;
+  height:40%;
+  padding: 20px;
+}
+#topHead1{
+  color: #0B518F;
+  margin-bottom: 10px;
+}
+#topHead2{
+  color: #D4E012;
+}
+button{
+  background-color: #D4E012;
+  font-size: 18px;
+  width: 80%;
+  height: 20%;
+  border-radius: 10px;
+  border:none;
+  font-weight:900;
+  color: #0099E0;
+  margin-top: 15px;
+  margin-left: 25px;
+  box-shadow: 5px 5px 29px -8px rgba(0,0,0,0.52);
+  
+}
+
+button:hover{
+  background-color: #0B518F;
+  color: #D4E012;
+  cursor: pointer;
+    font-size: 25px;
+  width: 80%;
+  height: 25%;
+  border-radius: 10px;
+}
+
+#bottom-part{
+  width: 100%;
+  height: 60%;
+}
+
+#bottom-left{
+  display:inline-block;
+  vertical-align: top;
+  width: 50%;
+  height:100%;
+  background-color: #0099E0;
+  color: white;
+  padding: 20px;
+}
+#botHead1{
+  margin-bottom: 15px;
+}
+#price-container{
+  margin-bottom:15px;
+}
+#botRHeading{
+  margin-bottom: 15px;
+}
+#par2{
+  margin: 20px;
+  margin-top: 0;
+}
+#bottom-right{
+  display: inline-block;
+  width: 50%;
+  height:100%;
+  background-color: #0B518F;
+  color: white;
+  padding:20px;
+}
+
+#price{
+  display: inline-block;
+}
+#pMonth{
+  display: inline-block;
+  position: relative;
+  top: -3px;
+}
